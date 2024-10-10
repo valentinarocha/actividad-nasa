@@ -1,0 +1,33 @@
+main {
+    min-height: calc(100vh - 160px);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.card-img-top {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 12px 12px rgb(177, 177, 185);
+}
+
+.card:hover {
+  box-shadow: 0 12px 12px 12px rgb(177, 177, 185);
+  cursor: pointer;
+}
+
+.card-text {
+  max-height: 100px;
+  overflow-y: auto;
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
